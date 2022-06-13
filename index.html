@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="img/icons/vc_logo.png" sizes="64x64" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Viktor Chekalov Resume</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
             <h2>I'm</h2>
             <h1>Viktor Chekalov</h1>
             <h3>student of rsschool</h3>
-            <h4>rs/jc</h4>
+            <h4>rs/js</h4>
           </div>
           <img src="img/icons/vc_logo.png" alt="chekalov" class="vc_logo" />
         </main>
@@ -55,17 +56,16 @@
         </div>
         <div class="about_wrapper">
           <div class="about_box">
-            <img src="img/card_1.jpg" alt="about_me">
+            <img src="img/card_1.jpg" alt="about_me" />
           </div>
-          <div class="about_box">
-            <img src="img/card_2.jpg" alt="about_me">
-          </div>
+          <!-- <div class="about_box">
+            <img src="img/card_2.jpg" alt="about_me" />
+          </div> -->
         </div>
       </div>
     </section>
 
     <!-- about -->
-
 
     <!-- SKILLS -->
 
@@ -131,7 +131,11 @@
 
           <div class="contacts_list">
             <div class="contacts_img">
-              <img src="img/icons/phone_logo.png" alt="phone" class="phone" />
+              <img
+                src="img/icons/telegram_logo.png"
+                alt="telegram"
+                class="phone"
+              />
             </div>
             <div class="contacts_text">
               <a href="tel:+375291111111" class="contacts_phone"
@@ -142,10 +146,10 @@
 
           <div class="contacts_list">
             <div class="contacts_img">
-              <img src="img/icons/gmail_logo.png" alt="gmail" class="gmail" />
+              <img src="img/icons/skype_logo.png" alt="skype" class="skype" />
             </div>
-            <a href="mailto:xelbrec@gmail.com" class="mail"
-              >xelbrec@gmail.com</a
+            <a href="skype:live:.cid.ff8dd3f5d95d6d07?userinfo" class="mail"
+              >Виктор Чекалов</a
             >
           </div>
 
@@ -157,7 +161,7 @@
                 class="github"
               />
             </div>
-            <a href="https://github.com/ViktorChekalov" class="github_link"
+            <a target="_blank" href="https://github.com/ViktorChekalov" class="github_link"
               >ViktorChekalov</a
             >
           </div>
@@ -193,5 +197,18 @@
       </div>
     </footer>
     <!-- FOOTER -->
+
+    <div class="scroll-up">
+      <svg class="scroll-up-svg" viewBox="-2 -2 52 52">
+        <path
+          class="scroll-up-svg-path"
+          d="
+           M24,0
+           a24,24 0 0,1 0,48
+           a24,24 0 0,1 0,-48
+          "
+        />
+      </svg>
+    </div>
   </body>
 </html>
