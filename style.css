@@ -13,12 +13,12 @@
   margin: 0 auto;
 }
 
-header {
+main {
   background: url(img/bg/bg_photo.jpg) center/cover no-repeat;
   min-height: 800px;
 }
 
-main {
+header {
   padding-top: 250px;
   display: flex;
   flex-direction: column;
