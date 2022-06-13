@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icons/vc_logo.png" sizes="64x64" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Viktor Chekalov Resume</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <main>
+      <div class="container">
+        <header>
+          <div class="header_text">
+            <h2>I'm</h2>
+            <h1>Viktor Chekalov</h1>
+            <h3>student of rsschool</h3>
+            <h4>fe/js</h4>
+          </div>
+          <img src="img/icons/vc_logo.png" alt="chekalov" class="vc_logo" />
+        </header>
+      </div>
+      <nav>
+        <div class="container">
+          <ul class="menu">
+            <li class="menu_item">
+              <a href="#about" class="menu_link">about</a>
+            </li>
+            <li class="menu_item">
+              <a href="#skills" class="menu_link">skills</a>
+            </li>
+            <li class="menu_item">
+              <a href="#works" class="menu_link">works</a>
+            </li>
+            <li class="menu_item">
+              <a href="#code" class="menu_link">code</a>
+            </li>
+            <li class="menu_item">
+              <a href="#contacts" class="menu_link">contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="line"></div>
+      </nav>
+    </main>
+
+    <!-- HEADER -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about_head">
+          <div class="label_black">about</div>
+        </div>
+        <div class="about_wrapper">
+          <div class="about_box">
+            <img src="img/card_1.jpg" alt="about_me" />
+          </div>
+          <!-- <div class="about_box">
+            <img src="img/card_2.jpg" alt="about_me" />
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+
+    <!-- SKILLS -->
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="skills_head">
+          <div class="label_yellow">skills</div>
+        </div>
+        <div class="skills_list">
+          <div class="skills_icons">
+            <img src="img/icons/ph_logo.png" alt="photoshop" class="ph_logo" />
+            <img src="img/icons/html_logo.png" alt="html" class="html_logo" />
+            <img src="img/icons/css_logo.png" alt="css" class="css_logo" />
+            <img src="img/icons/js_logo.png" alt="javascript" class="js_logo" />
+            <img src="img/icons/git_logo.png" alt="git" class="git_logo" />
+          </div>
+        </div>
+        <div class="skills_line">
+          <div class="yellow_line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+
+    <!-- WORKS -->
+
+    <section class="works" id="works">
+      <div class="container">
+        <div class="works_head">
+          <div class="label_black">works</div>
+        </div>
+        <div class="works_list">
+          <div class="works_img">
+            <img src="img/works/mogo.PNG" alt="mogo" class="mogo" />
+            <img src="img/works/uber.PNG" alt="uber" class="uber" />
+            <img src="img/works/course.PNG" alt="course" class="course" />
+          </div>
+        </div>
+        <div class="works_line">
+          <div class="black_line"></div>
+        </div>
+
+        <!-- CODE EXAMPLE -->
+
+        <div class="code_ex" id="code">
+          <div class="code_ex_head">
+            <div class="label_black">code example</div>
+          </div>
+          <div class="code_ex_block">
+            <pre>
+            <code class="code_ex_text">
+            <span class="code_wrapper">  
+<span class="code_blue">window</span><span class="code_yellow">.addEventListener</span><span class="code_orange">('scroll', () => {</span>
+<span class="code_yellow" >updateDashoffset()</span>;
+
+<span class="code_pink">if</span> <span class="code_yellow" >(getTop() > offset) {</span>
+<span class="code_blue">scrollUp.classList</span><span class="code_yellow">.add</span><span class="code_orange">('scroll-up--active')</span>;
+<span class="code_yellow" >}</span> <span class="code_pink">else</span> <span class="code_yellow" >{</span>
+<span class="code_blue">scrollUp.classList</span><span class="code_yellow">.remove</span><span class="code_orange">('scroll-up--active');}</span> <span class="code_pink">}</span><span class="code_yellow">)</span>;
+            </span>
+            </code>
+          </pre>
+          </div>
+        </div>
+        <div class="code_ex_line">
+          <div class="black_line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS -->
+
+    <!-- CONTACTS -->
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="contacts_head">
+          <div class="label_yellow">contacts</div>
+        </div>
+
+        <div class="contacts_block">
+          <div class="contacts_list">
+            <div class="contacts_img">
+              <img
+                src="img/icons/location_logo.png"
+                alt="location"
+                class="location"
+              />
+            </div>
+            <div class="contacts_text">minsk | belarus</div>
+          </div>
+
+          <div class="contacts_list">
+            <div class="contacts_img">
+              <img
+                src="img/icons/telegram_logo.png"
+                alt="telegram"
+                class="phone"
+              />
+            </div>
+            <div class="contacts_text">
+              <a href="tel:+375291111111" class="contacts_phone"
+                >+375(29)114-94-24</a
+              >
+            </div>
+          </div>
+
+          <div class="contacts_list">
+            <div class="contacts_img">
+              <img src="img/icons/skype_logo.png" alt="skype" class="skype" />
+            </div>
+            <a href="skype:live:.cid.ff8dd3f5d95d6d07?userinfo" class="mail"
+              >Виктор Чекалов</a
+            >
+          </div>
+
+          <div class="contacts_list">
+            <div class="contacts_img">
+              <img
+                src="img/icons/github_logo.png"
+                alt="github"
+                class="github"
+              />
+            </div>
+            <a
+              target="_blank"
+              href="https://github.com/ViktorChekalov"
+              class="github_link"
+              >Viktor Chekalov</a
+            >
+          </div>
+        </div>
+        <div class="contacts_line">
+          <div class="yellow_line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer_wrapper">
+          <div class="footer_cop">©2022 by VIKTOR CHEKALOV</div>
+          <div class="footer_logo">
+            <a target="_blank" href="https://github.com/ViktorChekalov"
+              ><img
+                src="img/icons/github_logo.png"
+                alt="GitHubLogo"
+                class="github_logo"
+            /></a>
+            <a target="_blank" href="https://rs.school/js/"
+              ><img
+                src="img/icons/rs_school_js.svg"
+                alt="RSSchool_logo"
+                class="rsschool_logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <div class="scroll-up">
+      <svg class="scroll-up-svg" viewBox="-2 -2 52 52">
+        <path
+          class="scroll-up-svg-path"
+          d="
+           M24,0
+           a24,24 0 0,1 0,48
+           a24,24 0 0,1 0,-48
+          "
+        />
+      </svg>
+    </div>
+  </body>
+</html>
