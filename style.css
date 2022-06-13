@@ -262,7 +262,7 @@ padding-bottom: 100px;
 .code_ex_text{
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: left;
 width: 500px;
 height: 500px;
 background-color: #000000;
@@ -270,6 +270,7 @@ font-size: 14px;
 font-weight: 400;
 color: #ffffff;
 margin: 0 auto;
+flex-direction: column;
 }
 
 .code_ex_line {
@@ -279,16 +280,24 @@ margin: 0 auto;
 }
 
 
-.code_div {
-  color: rgb(4, 91, 150);
+p {
+  text-align: center;
 }
 
-.code_class {
-  color:aqua;
+.code_yellow {
+  color: #e5bf3a;
 }
 
-.code_class_name {
-  color: #bb710f;
+.code_pink {
+  color: rgb(187, 107, 120);
+}
+
+.code_blue {
+  color: rgb(36, 143, 41);
+}
+
+.code_orange {
+  color: orange;
 }
 
 /*CONTACTS*/
