@@ -190,11 +190,12 @@ h4 {
 
 .works {
   background: url(img/bg/bg_yellow.jpg) center/cover no-repeat;
-  height: 766px;
+  min-height: 766px;
 }
 
 .works_head,
-.contacts_head {
+.contacts_head,
+.code_ex_head {
   padding-top: 56px;
 }
 
@@ -244,6 +245,50 @@ h4 {
   padding-top: 82px;
   display: flex;
   justify-content: center;
+}
+
+
+
+.code_ex_head .label_black {
+  text-align: center;
+  font-size: 24px;
+}
+
+.code_ex_block {
+padding-top: 50px;
+padding-bottom: 100px;
+}
+
+.code_ex_text{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 500px;
+height: 500px;
+background-color: #000000;
+font-size: 14px;
+font-weight: 400;
+color: #ffffff;
+margin: 0 auto;
+}
+
+.code_ex_line {
+  padding: 0px 0 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.code_div {
+  color: rgb(4, 91, 150);
+}
+
+.code_class {
+  color:aqua;
+}
+
+.code_class_name {
+  color: #bb710f;
 }
 
 /*CONTACTS*/
